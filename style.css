@@ -1,0 +1,157 @@
+@import url(https://db.onlinewebfonts.com/c/b9af90a7736141e51102b20d18fa0c8a?family=Plak);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&family=Viaoda+Libre&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Tangerine&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap);
+
+
+body {
+    background-image: url("IMG-0055.jpg");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Plak";
+    src: url("https://db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.eot");
+    src: url("https://db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.woff") format("woff"), url("https://db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.svg#Plak") format("svg");
+}
+
+
+div {
+
+    font-family: 'Noto Sans TC', sans-serif;
+
+
+
+}
+.text2display{
+    background: rgba(255, 255, 255, .6);
+    font-weight: bolder;
+    margin-left: 10px;
+    display: inline;
+}
+
+#button {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    font-size: 64px;
+    background-color: #637664;
+    border-top-color: #ff7f83;
+    border-right-color: #ff7f83;
+    border-left-color: #ff7f83;
+    border-bottom-color: #ff7f83;
+    color: #e57777;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+#button {
+    text-align: center;
+}
+
+#textbox2 {
+    border: 1px solid #000000;
+
+}
+
+#textbox {
+    border: 1px solid #000000;
+    display: inline-block;
+}
+
+input {
+    background-color: transparent;
+    border: 0;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    font-size: 24px
+
+
+}
+
+#title {
+    font-family: "Plak", sans-serif;
+    text-decoration: none;
+    font-size: 36px;
+
+}
+
+#title2 {
+    font-family: "Plak", sans-serif;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+
+div:active {
+    color: #ced500;
+}
+
+body.title {
+    background-image: url("photo-1599082642304-00cf2ca05da2.jpg");
+    background-size: cover;
+}
+
+.story{
+    background: rgba(255, 255, 255, .6);
+    font-weight: bold;
+    display: inline;
+}
+#storyEvent1{
+    background: rgba(255, 255, 255, .6);
+    font-weight: bold;
+    display: inline;
+}
+#storyStart {
+    background: rgba(255, 255, 255, .6);
+    font-weight: bolder;
+    margin-left: 10px;
+    display: inline;
+}
+div.story1 {
+    background: rgba(255, 255, 255, .6);
+    font-weight: bolder;
+    margin-left: -5px;
+    display: inline;
+}
+
+div.choice{
+    background: rgba(255, 255, 255, .6);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+
+
+#toggle {
+    background-color: #999999;
+}
+
+
+.flash {
+    color: #ced500;
+}
+#namestored{
+    margin-right: -5px;
+}
+
+.hidden{
+    display: none;
+
+}
+
+.display{
+    display: inline-block;
+}
+
+
+
+#letter1{
+    display: inline-block;
+    float: left;
+    position: relative;
+    font-family: 'Tangerine', cursive;
+    font-size: 48px;
+}
