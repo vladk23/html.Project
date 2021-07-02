@@ -40,7 +40,7 @@ div {
     border-right-color: #ff7f83;
     border-left-color: #ff7f83;
     border-bottom-color: #ff7f83;
-    color: #e57777;
+    color: #211f1f;
     padding: 15px 32px;
     text-align: center;
 }
@@ -93,9 +93,7 @@ body.title {
 }
 
 .story{
-    background: rgba(255, 255, 255, .6);
-    font-weight: bold;
-    display: inline;
+
 }
 #storyEvent1{
     background: rgba(255, 255, 255, .6);

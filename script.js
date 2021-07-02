@@ -235,6 +235,9 @@ function keyPress2 (e) {
                 document.getElementById('storymain').classList.remove('hidden')
                 currentStory = Lost
                 updateStory()
+                document.getElementById('button').classList.remove('hidden')
+                document.getElementById("button").addEventListener('click', Replay);
+                return
             }
 
             else if (guess > correct)
@@ -251,11 +254,14 @@ function keyPress2 (e) {
     }
 
 }
-
+function Replay (e) {
+    window.location = "index.html";
+}
 function keyPress1 (e) {
 
     if (e.code === 'Digit2' && currentStory === story321112) {
         document.getElementById('button').classList.remove('hidden')
+        document.getElementById("button").addEventListener('click', Replay);
         return
     }
     if (e.code === 'Digit1' && currentStory === story32111) {
